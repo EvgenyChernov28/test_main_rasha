@@ -1,0 +1,27 @@
+.footer {
+    margin: 0px 68px;
+}
+
+.footer-info {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-info-item-link {
+    text-decoration: none;
+    color: #EFF3F5;
+    padding-left: 50px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+}
+
+.footer-icon{
+    text-align: center;
+    position: relative;
+    margin-top: -60px;
+}

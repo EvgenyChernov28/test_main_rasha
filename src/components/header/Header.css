@@ -1,0 +1,30 @@
+.navbar {
+    margin: 0px 68px;
+    padding-top: 10px;
+}
+
+.navbar-items {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    color: #EFF3F5;
+}
+
+.navbar-items-link {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.nav-link {
+    text-decoration: none;
+    color: #EFF3F5;
+    padding: 0px 30px;
+    font-family: 'Montserrat';
+}
