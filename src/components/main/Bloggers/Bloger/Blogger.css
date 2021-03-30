@@ -1,0 +1,45 @@
+.card-blogger {
+    position: relative;
+}
+.card-blogger img{
+    opacity: 50%;
+}
+.card-blogger h2 {
+    position: absolute;
+    top: -118px;
+    left: 0;
+    margin: 0;
+}
+
+.card-blogger h2 span {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 37px;
+    color: #EFF3F5;
+    padding-left: 12px;
+}
+.card-blogger h2 span a{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    text-decoration: none;
+    color: #EFF3F5;
+    padding: 10px 20px 0px 0px;
+}
+.card-blogger-icons{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.card-blogger-icons a{
+    display: flex;
+    align-items: center;
+}
+.card-blogger-icons a img{
+    opacity: 100%;
+    padding-right: 10px;
+}

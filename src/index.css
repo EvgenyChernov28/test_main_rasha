@@ -5,8 +5,12 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  /* cursor: url(./img/cursor.svg), auto; */
+  overflow-x: hidden; 
 }
-
+a:hover{
+  /* cursor: url(./img/cursor_a.svg), default;; */
+}
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;

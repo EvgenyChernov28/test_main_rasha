@@ -2,9 +2,8 @@
 
 .App {
   /* text-align: center; */
-  height: 100vh;
+  height: 100%;
   background: linear-gradient(#4b0c3e, #6E105E, #4b0c3e);
-  
 }
 
 /* .App-logo {

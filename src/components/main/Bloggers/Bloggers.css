@@ -1,0 +1,87 @@
+.blogers {
+    padding: 0 68px;
+}
+
+.blogers h2 {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 50px;
+    line-height: 61px;
+    text-align: center;
+    color: #EFF3F5;
+}
+
+.blogers-sort {
+    display: block;
+    margin-bottom: 50px;
+}
+
+.blogers-sort-name {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    color: #EFF3F5;
+    display: inline;
+    margin-right: 40px;
+}
+
+.blogers-sort-playground {
+    margin-right: 59px;
+}
+
+.blogers-sort-fonts img {
+    margin-left: 10px;
+}
+
+.blogers-sort-fonts {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    color: #EFF3F5;
+    text-decoration: none;
+}
+
+.blogers-cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.blogers-cards-mb {
+    margin-bottom: 50px;
+}
+
+
+
+.blogers-line-left {
+    margin-left: -68px;
+    width: 47%;
+}
+
+.blogers-line-right {
+    margin-right: -136px;
+    width: 47%;
+}
+hr {
+    margin: 0;
+    display: inline-block;
+    position: relative;
+}
+.blogers-line{
+    margin-top: 10px;
+    margin-bottom: 70px;
+}
+.blogers-line span {
+    padding: 0 4.65%;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 18px;
+    color: #EFF3F5;
+}
