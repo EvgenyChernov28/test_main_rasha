@@ -17,9 +17,8 @@
     overflow: auto;
 }
 
-.outherblogers_cards_mb {
+.outherblogers_cards a{
     margin-right: 20px;
-    margin-bottom: 20px;
 }
 
 .outherblogers_cards::-webkit-scrollbar-track {

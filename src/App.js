@@ -5,9 +5,9 @@ import Footer from './components/footer/Footer'
 import { BrowserRouter, Route } from 'react-router-dom';
 import Bloggers from './components/main/Bloggers/Bloggers';
 import ProfileInfo from './components/main/Bloggers/ProfileInfo/ProfileInfo';
-import {ProfileInfoСlip} from './components/main/Bloggers/ProfileInfo/ProfileInfo';
+import { ProfileInfoСlip } from './components/main/Bloggers/ProfileInfo/ProfileInfo';
 import Outherbloggers from './components/main/Bloggers/Outherbloggers/Outherbloggers'
-
+import Way from './components/main/way/way'
 function App() {
 
   let way = "Главная";
@@ -17,15 +17,17 @@ function App() {
 
       <div className="App">
         <Header />
-        <div>
-          {way}
-        </div>
+        <Way />
 
         {/* <Bloggers /> */}
-        <ProfileInfo />
+        <Route path='/bloggers' render={() => <Bloggers />} />
+        {/* <ProfileInfo />
         <ProfileInfoСlip />
 
-        <Outherbloggers />
+        <Outherbloggers /> */}
+        <Route path='/blogger' render={() => <ProfileInfo />} />
+        <Route path='/blogger' render={() => <ProfileInfoСlip />} />
+        <Route path='/blogger' render={() => <Outherbloggers />} />
         <Footer />
       </div>
 

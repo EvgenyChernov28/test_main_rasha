@@ -1,8 +1,7 @@
 .blogers {
     padding: 0 68px;
 }
-
-.blogers h2 {
+.blogers-head{
     font-family: 'Montserrat';
     font-style: normal;
     font-weight: 800;
@@ -11,6 +10,7 @@
     text-align: center;
     color: #EFF3F5;
 }
+
 
 .blogers-sort {
     display: block;
@@ -50,12 +50,9 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-}
-
-.blogers-cards-mb {
+    flex-direction: row;
     margin-bottom: 50px;
 }
-
 
 
 .blogers-line-left {

@@ -1,6 +1,7 @@
 import React from 'react';
 import logo from '../../img/logo.svg';
 import './Header.css';
+import { NavLink } from 'react-router-dom'
 
 const Header = () =>{
     return (
@@ -10,7 +11,7 @@ const Header = () =>{
               
               <div className="navbar-items-link" id="">
                
-                    <a className="nav-link" href="#">Блогеры</a>
+                    <NavLink to="/bloggers" className="nav-link" href="#">Блогеры</NavLink>
                   
                     <a className="nav-link" href="#">Кейсы</a>
                   
