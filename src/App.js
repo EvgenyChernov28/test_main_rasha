@@ -4,6 +4,7 @@ import Header from './components/header/Header'
 import Footer from './components/footer/Footer'
 import { BrowserRouter, Route } from 'react-router-dom';
 import Bloggers from './components/main/Bloggers/Bloggers'
+import ProfileInfo from './components/main/Bloggers/ProfileInfo/ProfileInfo'
 
 function App() {
 
@@ -18,8 +19,8 @@ function App() {
           {way}
         </div>
 
-        <Bloggers />
-
+        {/* <Bloggers /> */}
+        <ProfileInfo/>
         <Footer />
       </div>
 
