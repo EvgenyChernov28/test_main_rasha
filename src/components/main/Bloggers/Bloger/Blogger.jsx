@@ -10,12 +10,12 @@ const Blogger = () => {
     let youtubeCount = '3 160 000+';
     let vkCount = '134 000+';
     let instagrammCount = '128 000+';
-
+ 
     return (
         <a className="card-blogger" href="#">
             <img src={blogger1} alt="blogger1" width="311" />
             <h2>
-                <span>
+                <span className="card-blogger-name">
                     Макс Максимов <br />
                 </span>
                 <span className="card-blogger-icons">

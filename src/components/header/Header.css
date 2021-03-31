@@ -1,6 +1,7 @@
 .navbar {
-    margin: 0px 68px;
+    padding: 0px 68px;
     padding-top: 10px;
+    background: linear-gradient(180deg, #320029 3.12%, rgba(110, 16, 94, 0) 100%);
 }
 
 .navbar-items {

@@ -4,6 +4,8 @@ import instagramm_color from '../../../../img/instagramm_color.png';
 import youtube_color from '../../../../img/youtube_color.png';
 import vk_color from '../../../../img/vk_color.png';
 import './ProfileInfo.css'
+import clip from '../../../../img/clip.png';
+import play from '../../../../img/play.svg';
 
 const ProfileInfo = () => {
 
@@ -16,7 +18,7 @@ const ProfileInfo = () => {
 
         <div className="profile">
             <div className="profile-avatar">
-                <img src={blogger_avatar1} alt="blogger_avatar1" height='572' />
+                <img src={blogger_avatar1} alt="blogger_avatar1" height='571' />
             </div>
 
             <div className="profile-info">
@@ -84,4 +86,43 @@ const ProfileInfo = () => {
 
     )
 }
+
+export const ProfileInfoСlip = () => {
+    return(
+
+        <div className='ProfileInfoСlip'>
+            <h2>Последние ролики</h2>
+
+            <div className='ProfileInfoСlip-allClip'>
+                <div className='ProfileInfoСlip-allClip-one'>
+                    <img className='ProfileInfoСlip-allClip-one-clip' src={clip} alt="clip"/>
+                    <img className='ProfileInfoСlip-allClip-one-play' src={play} alt="play"/>
+                </div>
+                <div className='ProfileInfoСlip-allClip-one'>
+                    <img className='ProfileInfoСlip-allClip-one-clip' src={clip} alt="clip"/>
+                    <img className='ProfileInfoСlip-allClip-one-play' src={play} alt="play"/>
+                </div>
+                <div className='ProfileInfoСlip-allClip-one'>
+                    <img className='ProfileInfoСlip-allClip-one-clip' src={clip} alt="clip"/>
+                    <img className='ProfileInfoСlip-allClip-one-play' src={play} alt="play"/>
+                </div>
+                <div className='ProfileInfoСlip-allClip-one'>
+                    <img className='ProfileInfoСlip-allClip-one-clip' src={clip} alt="clip"/>
+                    <img className='ProfileInfoСlip-allClip-one-play' src={play} alt="play"/>
+                </div>
+                <div className='ProfileInfoСlip-allClip-one'>
+                    <img className='ProfileInfoСlip-allClip-one-clip' src={clip} alt="clip"/>
+                    <img className='ProfileInfoСlip-allClip-one-play' src={play} alt="play"/>
+                </div>
+                <div className='ProfileInfoСlip-allClip-one'>
+                    <img className='ProfileInfoСlip-allClip-one-clip' src={clip} alt="clip"/>
+                    <img className='ProfileInfoСlip-allClip-one-play' src={play} alt="play"/>
+                </div>
+
+            </div>
+        </div>
+
+    )
+}
+
 export default ProfileInfo

@@ -1,0 +1,67 @@
+.outherblogers {
+    padding: 0 68px;
+}
+
+.outherblogers_head{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 50px;
+    line-height: 61px;
+    color: #EFF3F5;
+    text-align: center;
+}
+
+.outherblogers_cards {
+    display: flex;
+    overflow: auto;
+}
+
+.outherblogers_cards_mb {
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+
+.outherblogers_cards::-webkit-scrollbar-track {
+    margin: 0 30vw;
+    background-color: #969696;
+    border: 7px solid transparent;
+    background-clip: content-box;
+}
+
+.outherblogers_cards::-webkit-scrollbar {
+    height: 16px;
+}
+
+.outherblogers_cards::-webkit-scrollbar-thumb {
+    background-color: #EFF3F5;
+    border-radius: 8px;
+    border: 3px solid transparent;
+    background-clip: content-box;
+}
+
+.outherblogers_cards::-webkit-scrollbar-track-piece {}
+
+.outherblogers_cards::-webkit-scrollbar-button:single-button:horizontal:decrement {
+    background: url(../../../../img/arrow_left.svg) no-repeat;
+}
+
+.outherblogers_cards::-webkit-scrollbar-button:single-button:horizontal:increment {
+    background: url(../../../../img/Arrow_right.svg) no-repeat;
+}
+
+@media screen and (max-width: 1420px) {
+    .outherblogers_cards::-webkit-scrollbar-track{
+        margin: 0 25vw;
+    }
+}
+@media screen and (max-width: 1200px) {
+    .outherblogers_cards::-webkit-scrollbar-track{
+        margin: 0 20vw;
+    }
+}
+@media screen and (max-width: 992px) {
+    .outherblogers_cards::-webkit-scrollbar-track{
+        margin: 0 18vw;
+    }
+}
