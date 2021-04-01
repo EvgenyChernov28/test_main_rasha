@@ -12,8 +12,7 @@ const ProfileInfo = () => {
     let youtubeCount = '3 160 000+';
     let vkCount = '134 000+';
     let instagrammCount = '128 000+';
-    // let h = document.getElementsByClassName('profile').scrollHeight;
-    // alert(h)
+    
     return (
 
         <div className="profile">

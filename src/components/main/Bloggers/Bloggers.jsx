@@ -32,12 +32,7 @@ const Bloggers = (props) => {
                 </a>
             </div>
             <div className='blogers-cards'>
-                {/* <div className='blogers-cards-mb'> */}
-                    {/* <Blogger iDate={bloggerDate} /> */}
                     {blog}
-                {/* </div> */}
-                
-            
             </div>
             <div className='blogers-line'>
                 <hr className='blogers-line-left' align='left' /> <span>Подгружаем ...</span>  <hr className='blogers-line-right' align='right' />

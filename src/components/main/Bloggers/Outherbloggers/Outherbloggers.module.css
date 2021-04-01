@@ -39,7 +39,7 @@
     background-clip: content-box;
 }
 
-.outherblogers_cards::-webkit-scrollbar-track-piece {}
+
 
 .outherblogers_cards::-webkit-scrollbar-button:single-button:horizontal:decrement {
     background: url(../../../../img/arrow_left.svg) no-repeat;
