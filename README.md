@@ -1,13 +1,15 @@
-Данное приложения выполнено в соответствии с тестовым заданием.
+Данное приложение выполнено в соответствии с тестовым заданием.
 
 Разработка производилась с помощью React App.
 
 First step install all dependencies
 
-npm install
+#npm install
+
 Then in the project directory, you can run:
 
-npm start
+#npm start
+
 Runs the app in the development mode.
 Open http://localhost:3000 to view it in the browser.
 
